@@ -1,0 +1,99 @@
+style.css
+
+body{
+  text-align: center;
+  margin: auto;
+}
+
+h1{
+  color: white;
+  font family: 'Circuit', sans-serif;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: white;
+  font-family: 'Circuit', sans-serif;
+  letter-spacing: .2rem;
+}
+
+p{
+  color: white;
+  font-family: circuit;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  line-height: 200%;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.flexbox {
+  width 500px;
+  height 500px;
+  background-color: black;
+  margin: auto;
+}
+
+.banner{
+	background-image: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/79444460_113762240108237_9139102910196482048_o.jpg?_nc_cat=110&_nc_ohc=5zWtx1AY5XsAQlzhLA9tM0UCrAIa1kq1etxnT9RoxAGmzGIiQ1IOTi3Mg&_nc_ht=scontent-cdg2-1.xx&oh=f64cc0851b3e73501407145ca609371c&oe=5E7A7828);
+	display:flow;
+  align-items: center;
+	justify-content: center;
+  text-align: center;
+	height: 225px;
+	background-image: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  vertical-align: middle;
+  font-family: 'Circuit',sans-serif;
+  
+  }
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 33%;
+  height: 90%;
+  font-family: 'Circuit',sans-serif;
+}
+
+.card2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 33%;
+  height: 90%;
+  font-family: 'Circuit',sans-serif;
+  
+}
+
+.card3 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 33%;
+  height: 90%;
+  font-family: 'Circuit',sans-serif;
+}
+.footer{
+  display: flex;
+	align-items: center;
+  width: 100%;
+  justify-content: center;
+	background-color: black;
+	height: 100px;	
+  font-family: 'Circuit',sans-serif;
+  color: white;
+}
